@@ -1,0 +1,11 @@
+{
+  "name": "${project.artifactId}",
+  "main": "app/index.html",
+  "version": "${project.version}",
+  "nodejs": false,
+  "window": {
+    "id": "azuaron-example-teavm",
+    "title": "Azuaron Example TeaVM",
+    "position": "center"
+  }
+}

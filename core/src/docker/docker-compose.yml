@@ -1,0 +1,8 @@
+version: "3"
+services:
+  nwjs:
+    container_name: nwjs-build
+    build: .
+    volumes:
+      - ../../target/example-${VERSION}-nwjs/:/home/app/build:rw
+      - ../../target/example-${VERSION}-bin/example-${VERSION}:/home/app/package:ro
